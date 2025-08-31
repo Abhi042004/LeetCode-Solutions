@@ -10,9 +10,7 @@ LeetCodeProblems/
 │ ├── Easy/
 │ ├── Medium/
 │ └── Hard/
-├── 2.Strings/
-├── 3.LinkedList/
-└── ...
+
 
 bash
 Copy code
