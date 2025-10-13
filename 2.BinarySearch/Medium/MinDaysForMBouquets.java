@@ -11,9 +11,9 @@ public class MinDaysForMBouquets {
 
     static int minDays(int[] bloomDay, int m , int k) {
 
-
-        int low = 1;
-        int high = max(bloomDay);
+        int[] minmax = minMax(bloomDay);
+        int low = minmax[0];
+        int high = minmax[1];
         int ans = -1;
 
         if (m*k > bloomDay.length) {
@@ -58,13 +58,18 @@ public class MinDaysForMBouquets {
         return bouquets;
     }
     
-    static int max(int[] bloomDay) {
+    static int[] minMax(int[] bloomDay) {
+        int min = bloomDay[0];
         int max = bloomDay[0];
         for (int i = 0; i < bloomDay.length; i++) {
             if (max<bloomDay[i]) {
                 max = bloomDay[i];
             }
+            if (min>bloomDay[i]) {
+                min = bloomDay[i];
+            }
         }
-        return max;
+        return new int[] {min ,max};
      }
+
 }
