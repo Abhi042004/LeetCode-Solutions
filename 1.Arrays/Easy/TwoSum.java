@@ -20,7 +20,7 @@ public class TwoSum {
     // Output: [0,1]
 
         int[] nums = {3, 2, 4};
-int target = 6;
+        int target = 6;
         int[] arr = new int[2];
 
         for (int i = 0; i < nums.length-1; i++) {
