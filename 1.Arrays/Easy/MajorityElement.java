@@ -49,7 +49,7 @@ public class MajorityElement {
         // System.out.println(num);
 
         // Optimal Solution
-        // int[] nums = {2,2,1,1,1,2,2};
+        // int[] nums = {4, 1, 2, 1, 1};
 
         int temp = nums[0];
         int count = 0;
