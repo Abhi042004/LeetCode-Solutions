@@ -33,7 +33,7 @@ class Solution {
     }
 }
 
-public class RemoveDuplicatesDLL {
+public class RemoveDuplicatesOfaKeyDLL {
 
     // Create DLL
     public static Node createDLL(int[] arr) {
