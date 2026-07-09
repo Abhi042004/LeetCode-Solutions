@@ -110,6 +110,7 @@ public class ImplementQueueUsingStack {
         System.out.println("Peek : " + queue.peek());
 
         System.out.println();
+        
 
         System.out.println("Pop : " + queue.pop());
         queue.display();
